@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+
+body{
+    background-color: #FCF8F5;
+    letter-spacing: 2px;
+}
+
+
+
+/* Header */
+
+.header-img{
+    width: 100%;
+    filter: brightness(90%);
+    z-index: -1;
+    
+}
+
+.header-text{
+    margin-left: 8rem;
+    margin-top: 5rem;
+    position: absolute;
+    z-index: 1;    
+    font-family: 'Bebas Neue',cursive;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.tagline{
+    margin-top: 6rem;
+    line-height: 1.2;
+    width: 60%;
+    font-size: 6rem;
+    font-family: 'PT Serif', serif;
+}
+
+.btn-shop{
+
+    letter-spacing: 2px;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    background-color: #2E3F1A;
+    border-radius: 0;
+    width: 16%
+}
+
+.btn-shop:hover{
+    background-color: #212E13;
+}
+
+

@@ -1,29 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body{
     background-color: #FCF8F5;
+    color: #2E3F1A;
     letter-spacing: 2px;
+
+
 }
 
-
+h1,h2,h3,h4,h5,h6{
+    font-family: 'PT Serif', serif;
+}
 
 /* Header */
 
 .header-img{
     width: 100%;
-    filter: brightness(90%);
+    filter: brightness(78%);
     z-index: -1;
     
 }
 
+.heading{
+    font-family: 'Bebas Neue',cursive;
+}
+
 .header-text{
-    margin-left: 8rem;
-    margin-top: 5rem;
+    margin-left: 7%;
+    margin-top: 5%;
     position: absolute;
     z-index: 1;    
-    font-family: 'Bebas Neue',cursive;
+    
     font-weight: 400;
     color: rgb(255, 255, 255);
 }
@@ -37,10 +46,10 @@ body{
 }
 
 .btn-shop{
-
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
     margin-top: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     background-color: #2E3F1A;
     border-radius: 0;
     width: 16%
@@ -51,3 +60,58 @@ body{
 }
 
 
+/* Bestsellers */
+
+#bestsellers{
+    padding: 4% 0;
+    text-align: center;
+    
+}
+
+.bestsellers-heading{
+    font-family: 'PT Serif', serif;
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+}
+
+
+.bestsellers-img{
+    margin-top: 3%;
+    width: 60%;
+}
+
+
+
+.bestseller-description{
+    text-align: left;
+    margin: 3% 20%;
+}
+
+#bestsellers button{
+
+    width: 13%;
+}
+
+
+/* Beauty Section */
+
+#beauty{
+    margin-top: 5%;
+    padding: 0 6.5%;
+   
+}
+
+#beauty h1{
+    margin-top: 6%;
+}
+
+.beauty-text{
+    margin-top: 3%;
+    width: 75%;
+}
+
+
+.card{
+    background-color: #FCF8F5;
+    border: none;
+}

@@ -14,6 +14,11 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'PT Serif', serif;
 }
 
+.coloured-section{
+    background-color: #F8F6F4;
+
+}
+
 /* Header */
 
 .header-img{
@@ -76,7 +81,7 @@ h1,h2,h3,h4,h5,h6{
 
 
 .bestsellers-img{
-    margin-top: 3%;
+    margin-top: 4%;
     width: 60%;
 }
 
@@ -97,7 +102,7 @@ h1,h2,h3,h4,h5,h6{
 
 #beauty{
     margin-top: 5%;
-    padding: 0 6.5%;
+    padding: 5% 6.5%;
    
 }
 
@@ -110,8 +115,61 @@ h1,h2,h3,h4,h5,h6{
     width: 75%;
 }
 
+.beauty-desc{
+    width: 55%;
+   
+}
+
+
+
 
 .card{
-    background-color: #FCF8F5;
+
+    background-color: #F8F6F4;
     border: none;
 }
+
+/* Lifestyle */
+
+#lifestyle{
+    margin: 9% 0;
+    padding: 0 6.5%;
+}
+
+#lifestyle button{
+    font-size: 15px;
+    margin-top: 1.5rem;
+    width: 70%;
+}
+
+.lifestyle-pic{
+    height: 80%;
+    width: 70%;
+}
+
+.life-img{
+    text-align: right;
+}
+
+.lifestyle-desc{
+    text-align: left;
+    width:70%;
+    margin-left:30% ;
+    margin-top: 3%;
+}
+
+/* Reviews Section */
+
+#reviews{
+    padding: 4% 0;
+    text-align: center;
+
+}
+
+#reviews h4{
+    text-align: left;
+    margin: 3% 20%;
+}
+
+/* My Journey */
+

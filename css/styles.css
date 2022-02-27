@@ -19,6 +19,14 @@ h1,h2,h3,h4,h5,h6{
 
 }
 
+.big-heading{
+    font-family: 'PT Serif', serif;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    margin-bottom: 5%;
+}
+
+
 /* Header */
 
 .header-img{
@@ -73,15 +81,10 @@ h1,h2,h3,h4,h5,h6{
     
 }
 
-.bestsellers-heading{
-    font-family: 'PT Serif', serif;
-    font-size: 2.5rem;
-    letter-spacing: 3px;
-}
 
 
 .bestsellers-img{
-    margin-top: 4%;
+
     width: 60%;
 }
 
@@ -171,5 +174,39 @@ h1,h2,h3,h4,h5,h6{
     margin: 3% 20%;
 }
 
+.reviews-img{
+    width: 60%;
+}
+
 /* My Journey */
+
+#journey{
+    
+    padding: 0 0 0 7%;
+    text-align: left;
+}
+
+
+
+.journey-text{
+    padding: 10% 7% 3% 0;
+}
+
+
+
+/* CTA */
+
+#cta{
+    text-align: right;
+}
+
+.social-icon {
+    margin: 20px 15px;
+
+  }
+
+
+.icons{
+    margin-right: 8%;
+}
 
